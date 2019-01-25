@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MobileProgrammingLLC.Tests.Listeners"/>
+    <listener class-name="MobileProgrammingLLC.Resources.ExtentReport"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="MobileProgrammingLLC.Tests.UiCatalog_ApplyingWebView">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openInAppBrowser"/>
+          <include name="initConfigs"/>
+          <include name="verifySignInErrorMsg"/>
+          <include name="navigateToSignInPage"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.UiCatalog_ApplyingWebView -->
+      <class name="MobileProgrammingLLC.Tests.UiCatalog_ManagingAlertViews">
+        <methods>
+          <include name="initConfigs"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MobileProgrammingLLC.Tests.UiCatalog_ManagingAlertViews -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
